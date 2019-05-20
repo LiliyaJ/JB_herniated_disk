@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 699px){
+    .container{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1023px){
+
+    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px){
+    
+    html,
+    body{
+        font-size: 16px;
+    }
+
+    section{
+        margin: 6% 0;
+    }
+
+    h1{
+        font-size: 2.2vw;
+    }
+    
+    h3{
+        color: #e69e6c;
+        font-size: 1vw;
+        text-transform: uppercase;
+        margin-bottom: 0.5%;
+    }
+    
+    h4 {
+        font-size: 1.1vw;
+        font-weight: 500;
+        margin-bottom: 4%;
+    }
+    
+    h5 {
+        font-size: 1.7vw;
+        line-height: 1.5em;
+        margin-top: 2%;
+    }
+    
+    
+}
+
