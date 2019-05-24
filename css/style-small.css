@@ -30,6 +30,7 @@ html{
 p,
 blockquote{
     line-height: 1.3em;
+    text-align: justify;
 }
 
 
@@ -84,6 +85,11 @@ h5 {
     text-align: center;
 }
 
+
+.benefits .headings{
+    width: 80%;
+    margin-left: 10%;
+}
 
 /* ----- BUTTON ----- */
 
@@ -360,6 +366,10 @@ header .container{
     display: none;
 }
 
+.simptomatic h4{
+    text-align: justify;
+}
+
 
 /*--------------------------*/
 /* BENEFITS*/
@@ -444,7 +454,6 @@ header .container{
     display: block;
     margin-top: 10px;
     padding: 5%;
-    text-align: center;
     font-size: 16px;
 }
 
@@ -547,6 +556,7 @@ header .container{
 .phone{
     color: #e69e6c;
     font-size: 16px;
+    text-align: center;
 }
 
 
@@ -831,6 +841,10 @@ footer{
     justify-items: center;
 }
 
+.contact-form input[type = submit]{
+    margin-top: 10px;
+}
+
 .container-form h2{
     font-size: 16px;
     color: rgb(104, 89, 79);
@@ -893,3 +907,23 @@ textarea::placeholder{
 }
 
 
+.form-messages{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 4%;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.success {
+    background-color: #e69e6c;
+}
+
+.error{
+    background-color: red;
+}
