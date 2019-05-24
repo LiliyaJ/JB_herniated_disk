@@ -38,6 +38,8 @@ blockquote{
 /*--------------------------*/
 
 section{
+    display: block;
+    width: 100%;
     margin: 16% 0;
 }
 
@@ -81,6 +83,12 @@ h5 {
     font-size: 1.1vw;
     line-height: 1.5em;
     margin-top: 2%;
+}
+
+.headings{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
 }
 
 /* ----- BUTTON ----- */
@@ -277,6 +285,10 @@ header .container{
 /* BENEFITS*/
 /*--------------------------*/
 
+.benefits .headings{
+    width: 40%;
+    margin-left: 30%;
+}
 
 .benefits h5{
     text-align: center;
@@ -382,7 +394,7 @@ header .container{
 /*--------------------------*/
 
 .treatment{
-    margin: 18%;
+   
     width: 100%;
 }
 
@@ -708,18 +720,18 @@ footer{
 /*--------------------------*/
 .popup{
     display: none;
-    width: 80%;
+    width: 60%;
     justify-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     position: fixed;
     z-index: 0;
-    left: 10%;
+    left: 20%;
     top: 10%;
     overflow: visible;
     background-color: antiquewhite;
-    padding: 10%;
+    padding: 2%;
     border-radius: 15px;
 }
 
@@ -727,7 +739,6 @@ footer{
     display: grid;
     width: 100%;
     justify-items: center;
-    padding: 0 8% 8% 8%;
 }
 
 .container-form h2{
@@ -745,13 +756,17 @@ footer{
     margin: 0 auto;
 }
 
+.contact-form input[type = submit]{
+    margin-top: 10px;
+}
+
 input{
     height: 33px;
 }
 
 input,
 textarea{
-    width:400px;
+    width:500px;
     padding: 7px;  
     border: 1px solid rgb(104, 89, 79);
     margin-bottom: 10px;
@@ -787,4 +802,23 @@ textarea::placeholder{
     color: #806E62;
 }
 
+.form-messages{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 4%;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
 
+.success {
+    background-color: #e69e6c;
+}
+
+.error{
+    background-color: red;
+}
