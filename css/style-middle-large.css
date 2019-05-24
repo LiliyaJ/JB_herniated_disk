@@ -79,6 +79,12 @@ h5 {
     margin-top: 2%;
 }
 
+.headings{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+}
+
 /* ----- BUTTON ----- */
 
 .btn,
@@ -240,6 +246,11 @@ header .container{
     grid-gap: 10px;
 }
 
+.container-simptomatic .headings{
+    width: 80%;
+    margin-left: 10%;
+}
+
 .container-simptomatic div{
     width:100%;
     
@@ -273,6 +284,12 @@ header .container{
 
 .benefits{
     margin: 8% 0;
+}
+
+
+.benefits .headings{
+    width: 40%;
+    margin-left: 30%;
 }
 
 .benefits h5{
@@ -744,6 +761,10 @@ footer{
     margin: 0 auto;
 }
 
+.contact-form input[type = submit]{
+    margin-top: 10px;
+}
+
 input{
     height: 33px;
 }
@@ -787,3 +808,23 @@ textarea::placeholder{
 }
 
 
+.form-messages{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 4%;
+    border-radius: 8px;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.success {
+    background-color: #e69e6c;
+}
+
+.error{
+    background-color: red;
+}
